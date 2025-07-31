@@ -11,7 +11,7 @@ export default function Home() {
     setFadeOut(true);
     setTimeout(() => {
       router.push('/quiz');
-    }, 800); // match your CSS transition duration
+    }, 200); 
   };
 
   return (
